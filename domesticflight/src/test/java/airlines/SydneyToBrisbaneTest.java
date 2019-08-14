@@ -40,7 +40,7 @@ public class SydneyToBrisbaneTest extends base{
 
 	@AfterMethod
 	public void tearDown() {
-//		driver.close();
-//		driver=null;
+		driver.close();
+		driver=null;
 	}
 }

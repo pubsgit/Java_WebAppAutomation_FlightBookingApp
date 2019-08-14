@@ -22,11 +22,12 @@ public class base {
 
 	public static WebDriver driver;
 	public Properties prop;
+	
 public WebDriver initializeDriver() throws IOException
 {
 	
 prop= new Properties();
-FileInputStream fis=new FileInputStream("C:\\Users\\Arjun\\Desktop\\Learning\\Web_Selenium\\domesticflight\\src\\main\\java\\resources\\data.properties");
+FileInputStream fis=new FileInputStream("./src/main/java/resources/data.properties");
 
 prop.load(fis);
 String browserName=prop.getProperty("browser");
@@ -35,20 +36,20 @@ System.out.println(browserName);
 if(browserName.equals("chrome"))
 {    ChromeOptions options = new ChromeOptions();
 	options.addArguments("--disable-notifications");	
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arjun\\Desktop\\Learning\\Web_Selenium\\webbrowserdrives\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
 	driver= new ChromeDriver(options);
 	//execute in chrome driver
 	
 }
 else if (browserName.equals("firefox"))
 {
-	System.setProperty("webdriver.firefox.driver", "C:\\Users\\Arjun\\Desktop\\Learning\\Web_Selenium\\webbrowserdrives\\geckodriver.exe");
+	System.setProperty("webdriver.firefox.driver", "./src/test/resources/geckodriver.exe");
 	 driver= new FirefoxDriver();
 	//firefox code
 }
 else if (browserName.equals("IE"))
 {
-	System.setProperty("webdriver.firefox.driver", "C:\\Users\\Arjun\\Desktop\\Learning\\Web_Selenium\\webbrowserdrives\\msedgedriver.exe");
+	System.setProperty("webdriver.firefox.driver", "./src/test/resources/msedgedriver.exe");
 	driver= new EdgeDriver();
 }
 
