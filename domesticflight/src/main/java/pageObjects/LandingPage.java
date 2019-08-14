@@ -130,17 +130,6 @@ public class LandingPage {
 	}
 
 
-	public WebElement selectSource()
-	{
-		return driver.findElement(source);
-	}
-
-	public WebElement selectDestination()
-	{
-		return driver.findElement(destination);
-	}
-
-	
-	
+ 
 	
 }
