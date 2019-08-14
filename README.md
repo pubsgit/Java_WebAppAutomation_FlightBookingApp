@@ -6,6 +6,7 @@ JAVA_HOME and MAVEN_HOME Paths should be set
 
 How to run the tests:
 Open Command Terminal in windows / Linux
+
 Run "mvn clean" to clean any previous mvn configs
 # mvn clean
 
