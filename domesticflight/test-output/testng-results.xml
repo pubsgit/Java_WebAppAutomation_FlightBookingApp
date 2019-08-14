@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12258" started-at="2019-08-13T22:23:49Z" finished-at="2019-08-13T22:24:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12258" started-at="2019-08-13T22:23:49Z" finished-at="2019-08-13T22:24:01Z">
+      <class name="airlines.SydneyToBrisbaneTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:airlines.SydneyToBrisbaneTest@224edc67]" name="setUp" is-config="true" duration-ms="11131" started-at="2019-08-14T08:23:49Z" finished-at="2019-08-14T08:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="FlightBooking()[pri:0, instance:airlines.SydneyToBrisbaneTest@224edc67]" name="FlightBooking" duration-ms="1085" started-at="2019-08-14T08:24:00Z" finished-at="2019-08-14T08:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:airlines.SydneyToBrisbaneTest@224edc67]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-14T08:24:01Z" finished-at="2019-08-14T08:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- airlines.SydneyToBrisbaneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
